@@ -56,6 +56,7 @@ const HomeBest = () => {
   };
 
   const visibleItems = items.slice(startIndex, startIndex + itemsPerPage);
+  
   return (
     <div className="homebest-container">
     <h1>Digital Best Sellers</h1>

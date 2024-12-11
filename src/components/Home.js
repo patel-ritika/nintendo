@@ -5,6 +5,7 @@ import HomeSecond from './home/HomeSecond';
 import HomeNews from './home/HomeNews';
 import HomeCharacter from './home/HomeCharacter';
 import HomeBest from './home/HomeBest';
+import HomeDigital from './home/HomeDigital';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <HomeNews/>
       <HomeCharacter/>
       <HomeBest/>
+      <HomeDigital/>
     </div>
   );
 }

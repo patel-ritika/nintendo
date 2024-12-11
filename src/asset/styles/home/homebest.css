@@ -1,0 +1,171 @@
+.homebest-container {
+    padding-left: 20px; /* Left spacing */
+    margin-top: 5rem;
+    position: relative;
+  }
+  
+ .homebest-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 13rem;
+    color: #434242;
+  }
+  
+  .homebest-boxes {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .homebest_box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 230px;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .homebest_box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .homebest_box:hover img {
+    transform: translateY(-10px); /* Image moves up on hover */
+  }
+  
+  .homebest_box h4 {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #434242;
+    transition: color 0.3s ease;
+  }
+  
+  .homebest_box:hover h4 {
+    color: #e60012; 
+  }
+  
+  .homebest_box h5 {
+    font-size: 0.9em;
+    color: #434242;
+    margin: 5px 0;
+  }
+  
+  .homebest_box p {
+    text-align: left;
+    font-size: 1em;
+    color: #434242;
+    margin: 5px 0;
+  }
+  
+  .homebest_box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .homebest_box-footer h6 {
+    font-size: 0.9em;
+    color: #434242;
+  }
+  
+  .wishlist-icon {
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .homebest_navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homebest_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #000;
+    z-index: 10;
+  }
+  
+  .homebest_arrow:hover {
+    color: #555;
+  }
+  
+  .homebest_left-arrow{
+    left: 70px;
+  }
+
+  .homebest_right-arrow{
+    right: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .homebest-container {
+      margin-top: 1rem;
+    }
+  
+    .homebest-container h1 {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+      padding-left: 10px;
+    }
+  
+    .homebest-boxes {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .homebest_box {
+      width: 90%; /* Full width with some padding on smaller screens */
+      max-width: 300px;
+      margin: 0 auto; /* Center align */
+    }
+
+    .homebest_box h5{
+        text-align: left;
+    }
+  
+    .homebest_navigation {
+      position: relative;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .homebest_arrow {
+      font-size: 2.5rem;
+      position: relative;
+      top: auto;
+      transform: none;
+      margin: 200px 70px;
+    }
+  
+    .homebest_left-arrow {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .homebest_right-arrow {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }

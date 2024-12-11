@@ -1,0 +1,121 @@
+.home-second {
+    padding: 20px;
+    margin-top: 2rem;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  .home_second_section {
+    margin-bottom: 20px;
+  }
+  
+  .home_second_section h1 {
+    padding-right: 45rem;
+    margin-left: 20px;
+    font-size: 30px;
+    color: #434242;
+  }
+  
+  .home_second_section-image {
+    cursor: pointer;
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    width: 1000px;
+    height: 300px;
+    margin: 10px auto;
+  }
+  
+  .text-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  
+  .text-and-button h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 14rem;
+    color: #434242;
+  }
+  
+  .action-button {
+    margin-top: -1rem;
+    margin-left: 65rem;
+    padding: 10px 20px;
+    background-color: #e60012;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .action-button:hover {
+    transform: scale(1.1);
+    background-color: darkred;
+  }
+  
+  h5 {
+    text-align: left;
+    margin-left: 15rem;
+    font-size: 17px;
+    font-weight: 500;
+    color:#434242;
+  }
+  
+  h5 a {
+    color: #434242;
+    text-decoration: none;
+  }
+  
+  /* Responsive Styles */
+@media (max-width: 768px) {
+
+.home-second{
+    overflow-x: hidden;
+}
+
+    .home_second_section h1 {
+      margin-left: 10px;
+      font-size: 24px;
+      text-align: center;
+      width: 300px;
+    }
+  
+    .home_second_section-image {
+      width: 90%;
+      height: auto;
+    }
+  
+    .text-and-button {
+      margin-left: 10px;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .text-and-button h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      width: 300px;
+      padding-right: 13rem;
+    }
+  
+    .action-button {
+      margin: 10px 0;
+    }
+  
+    h5 {
+      margin-left: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  }

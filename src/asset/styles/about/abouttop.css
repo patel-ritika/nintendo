@@ -1,0 +1,76 @@
+.about-top-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .abouttop-image {
+    width: 100%; /* Makes the image span the width of the container */
+    height: auto; /* Maintains the aspect ratio */
+  }
+  
+  .content-box {
+    
+    position: absolute;
+    bottom: -250px; /* Adjust the overlap with the image */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%; /* Adjust as needed */
+    height: 295px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    text-align: center; /* Center-align text */
+  }
+  
+  .content-box h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: left;
+    color: #434242;
+  }
+  
+  .content-box p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #434242;
+    text-align: left;
+  }
+  
+  /* Responsive styles */
+@media (max-width: 768px) {
+    .content-box {
+      position: static; /* Remove absolute positioning for mobile */
+      transform: none;
+      margin: 20px auto;
+      width: 90%; /* Full width for mobile */
+      height: auto; /* Adjust height to fit content */
+    }
+  
+    .about-top-container {
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column; /* Stack the image and content vertically */
+      align-items: center;
+    }
+  
+    .abouttop-image {
+      width: 100%; /* Ensure the image spans full width on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content-box h2 {
+      font-size: 20px; /* Smaller font size for smaller devices */
+    }
+  
+    .content-box p {
+      font-size: 14px; /* Smaller font size for paragraphs */
+    }
+  
+    .content-box {
+      padding: 15px; /* Reduce padding for smaller devices */
+    }
+  }

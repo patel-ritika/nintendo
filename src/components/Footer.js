@@ -24,7 +24,7 @@ const Footer = () => {
         <h4>About Nintendo</h4>
         <ul>
           <li>Careers</li>
-          <li>Corporate Social Responsibility</li>
+          <li>Corporate Social <br/>Responsibility</li>
         </ul>
       </div>
       <div className="footer-column">
@@ -55,9 +55,9 @@ const Footer = () => {
             <li>Nintendo Account</li>
             <li>Other Systems</li>
             <li>Repairs</li>
-            <li>Nintendo Product Recycling</li>
+            <li>Nintendo Product<br/> Recycling</li>
             <li>Warranty</li>
-            <li>Licensed Product Information</li>
+            <li>Licensed Product<br/> Information</li>
           </ul>
         </div>
         <div className="footer-column">
@@ -76,11 +76,11 @@ const Footer = () => {
           <h4>Privacy</h4>
           <ul>
             <li>Privacy Policy</li>
-            <li>Cookies and Interest-Based Ads</li>
+            <li>Cookies and Interest-<br/>Based Ads</li>
           </ul>
           <h4>Documents & Policies</h4>
           <ul>
-            <li>Health & Safety Precautions</li>
+            <li>Health & Safety<br/> Precautions</li>
             <li>Wireless Regulatory Info</li>
             <li>Supply Chain Transparency</li>
           </ul>

@@ -28,6 +28,11 @@
     padding: 0;
   }
   
+.nav-list a{
+  color: #434242;
+  text-decoration: none;
+}
+
   .nav-list li {
     font-size: 1rem;
     cursor: pointer;

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Link } from "react-router-dom";
 import "../asset/styles/header.css";
 import { FaHeart, FaShoppingCart, FaUser, FaBars, FaTimes } from "react-icons/fa";
 import logoImage from "../asset/images/nintendologo.jpg";
@@ -12,7 +13,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
+        <Link to="/">
         <img src={logoImage} alt="Logo" />
+        </Link>
       </div>
 
        {/* Mobile Icons */}
@@ -30,7 +33,9 @@ const Header = () => {
 
       <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>
         <ul className="nav-list">
-          <li>About</li>
+          <li>
+          <Link to="/about">About</Link>
+          </li>
           <li>Shop</li>
           <li>Orders</li>
         </ul>

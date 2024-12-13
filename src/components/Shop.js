@@ -5,6 +5,7 @@ import HomeDigital from './home/HomeDigital';
 import ShopHoliday from './shop/ShopHoliday';
 import ShopMulti from './shop/ShopMulti';
 import ShopExplore from './shop/ShopExplore';
+import ShopCharacter from './shop/ShopCharacter';
 
 const Shop = () => {
   return (
@@ -15,6 +16,7 @@ const Shop = () => {
       <ShopHoliday/>
       <ShopMulti/>
       <ShopExplore/>
+      <ShopCharacter/>
     </div>
   );
 }

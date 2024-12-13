@@ -3,6 +3,7 @@ import ShopTop from './shop/ShopTop';
 import ShopTrial from './shop/ShopTrial';
 import HomeDigital from './home/HomeDigital';
 import ShopHoliday from './shop/ShopHoliday';
+import ShopMulti from './shop/ShopMulti';
 
 const Shop = () => {
   return (
@@ -11,6 +12,7 @@ const Shop = () => {
       <ShopTrial/>
       <HomeDigital/>
       <ShopHoliday/>
+      <ShopMulti/>
     </div>
   );
 }

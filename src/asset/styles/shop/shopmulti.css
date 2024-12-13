@@ -1,0 +1,161 @@
+.shopmulti-container {
+    padding-left: 20px; /* Left spacing */
+    margin-top: 5rem;
+    position: relative;
+  }
+  
+ .shopmulti-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 13rem;
+    color: #434242;
+  }
+  
+  .shopmulti-boxes {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .shopmulti_box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 230px;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .shopmulti_box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .shopmulti_box:hover img {
+    transform: translateY(-10px); /* Image moves up on hover */
+  }
+  
+  .shopmulti_box h4 {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #434242;
+    transition: color 0.3s ease;
+  }
+  
+  .shopmulti_box:hover h4 {
+    color: #e60012; 
+  }
+  
+  .shopmulti_box p {
+    text-align: left;
+    font-size: 1em;
+    color: #434242;
+    margin: 5px 0;
+  }
+  
+  .shopmulti_box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .shopmulti_box-footer h6 {
+    font-size: 0.9em;
+    color: #434242;
+  }
+  
+  .shopmulti_wishlist-icon {
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .shopmulti_navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shopmulti_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #000;
+    z-index: 10;
+  }
+  
+  .shopmulti_arrow:hover {
+    color: #555;
+  }
+  
+  .shopmulti_left-arrow{
+    left: 70px;
+  }
+
+  .shopmulti_right-arrow{
+    right: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .shopmulti-container {
+      margin-top: 5rem;
+    }
+  
+    .shopmulti-container h1 {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+      padding-left: 10px;
+    }
+  
+    .shopmulti-boxes {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .shopmulti_box {
+      width: 90%; 
+      max-width: 300px;
+      margin: 0 auto; 
+    }
+
+    .shopmulti_navigation {
+      position: relative;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .shopmulti_arrow {
+      font-size: 2.5rem;
+      position: relative;
+      top: auto;
+      transform: none;
+      margin: 220px 70px;
+    }
+  
+    .shopmulti_left-arrow {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .shopmulti_right-arrow {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }

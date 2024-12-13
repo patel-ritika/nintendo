@@ -1,6 +1,6 @@
 .shop-character-container {
-    padding: 20px 40px; /* Left side se thoda space */
-    background-color: #f9f9f9; /* Overall container background color */
+    padding: 20px 40px; 
+    background-color: #f9f9f9; 
     margin-top: 5rem;
   }
   
@@ -15,37 +15,37 @@
   .shop-character-row {
     display: flex;
     gap: 20px;
-    justify-content: space-between; /* Images evenly spaced */
+    justify-content: space-between; 
   }
   
   .shop-character-item {
     position: relative;
-    width: 350px; /* Image width */
-    height: 300px; /* Image height */
+    width: 350px; 
+    height: 300px; 
     overflow: hidden;
     cursor: pointer;
     border-radius: 10px;
-    background-color: darkgray; /* Background color for item */
+    background-color: darkgray; 
   }
   
   .shop-character-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    transition: transform 0.3s ease; /* Smooth zoom effect */
+    transition: transform 0.3s ease; 
   }
   
   .shop-character-item:hover .shop-character-image {
-    transform: scale(1.1); /* Zoom effect on hover */
+    transform: scale(1.1); 
   }
   
   .shop-character-label {
     position: absolute;
-    top: 10px; /* Top position */
+    top: 10px; 
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6); 
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 1rem;
@@ -56,8 +56,8 @@
   /* Responsive CSS */
 @media (max-width: 768px) {
     .shop-character-row {
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center items */
+      flex-direction: column; 
+      align-items: center; 
     }
   
     .shop-character-item {

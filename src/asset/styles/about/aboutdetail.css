@@ -121,18 +121,6 @@
       max-width: 300px;
   }
 
-  .contact-section {
-      flex-direction: column;
-      align-items: flex-start;
-      padding-left: 2rem;
-      text-align: left;
-  }
-
-  .contact-image {
-      max-width: 300px;
-      margin: 0 auto;
-  }
-
   .email-list {
       flex-direction: column;
       gap: 10px;
@@ -164,15 +152,6 @@
   }
 
   .career-image {
-      max-width: 250px;
-  }
-
-  .contact-section {
-      margin-top: 5rem;
-      padding-left: 1rem;
-  }
-
-  .contact-image {
       max-width: 250px;
   }
 

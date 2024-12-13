@@ -1,0 +1,165 @@
+.shopdigital-container {
+    padding-left: 20px; /* Left spacing */
+    margin-top: 5rem;
+    position: relative;
+  }
+  
+ .shopdigital-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 13rem;
+    color: #434242;
+  }
+  
+  .shopdigital-boxes {
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  
+  .shopdigital_box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 230px;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .shopdigital_box img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .shopdigital_box:hover img {
+    transform: translateY(-10px); /* Image moves up on hover */
+  }
+  
+  .shopdigital_box h4 {
+    text-align: left;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #434242;
+    transition: color 0.3s ease;
+  }
+  
+  .shopdigital_box:hover h4 {
+    color: #e60012; 
+  }
+  
+ 
+  
+  .shopdigital_box p {
+    text-align: left;
+    font-size: 1em;
+    color: #434242;
+    margin: 5px 0;
+  }
+  
+  .shopdigital_box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .shopdigital_box-footer h6 {
+    font-size: 0.9em;
+    color: #434242;
+  }
+  
+  .shopdigital_wishlist-icon {
+    color: red;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .shopdigital_navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .shopdigital_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+    color: #000;
+    z-index: 10;
+  }
+  
+  .shopdigital_arrow:hover {
+    color: #555;
+  }
+  
+  .shopdigital_left-arrow{
+    left: 70px;
+  }
+
+  .shopdigital_right-arrow{
+    right: 70px;
+  }
+
+  @media (max-width: 768px) {
+    .shopdigital-container {
+      margin-top: 5rem;
+    }
+  
+    .shopdigital-container h1 {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+      padding-left: 10px;
+    }
+  
+    .shopdigital-boxes {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .shopdigital_box {
+      width: 90%; /* Full width with some padding on smaller screens */
+      max-width: 300px;
+      margin: 0 auto; /* Center align */
+    }
+
+    
+  
+    .shopdigital_navigation {
+      position: relative;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .shopdigital_arrow {
+      font-size: 2.5rem;
+      position: relative;
+      top: auto;
+      transform: none;
+      margin: 220px 70px;
+    }
+  
+    .shopdigital_left-arrow {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  
+    .shopdigital_right-arrow {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }

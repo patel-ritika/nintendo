@@ -1,0 +1,87 @@
+.order-container {
+    width: 50%;
+    margin: 0 auto; /* Center align */
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .order-container h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #434242;
+  }
+  
+  .order-container h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #434242;
+  }
+  
+  .form-group h4 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: #434242;
+  }
+  
+  .input-box {
+    height: 40px;
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+  
+  .ordercontinue-button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #e60012;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .ordercontinue-button:hover {
+    background-color: darkred;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .order-container {
+      width: 90%; /* Take almost full width on mobile */
+      padding: 10px;
+      text-align: center; /* Center align text */
+    }
+  
+    .order-container h1 {
+      font-size: 24px;
+    }
+  
+    .order-container h2 {
+      font-size: 16px;
+    }
+  
+    .form-group h4 {
+      font-size: 18px;
+      text-align: left;
+    }
+  
+    .input-box {
+      width: 95%; /* Full width on mobile */
+      font-size: 14px;
+    }
+  
+    .ordercontinue-button {
+      width: 50%; /* Adjust button width for mobile */
+      font-size: 16px;
+    }
+  }

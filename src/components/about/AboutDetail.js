@@ -11,7 +11,7 @@ const AboutDetail = () => {
         <div className="aboutdetail_text-content">
           <h1>Superstars wanted</h1>
           <h4>Join us in putting smiles on the faces of people around the world.</h4>
-          <button className="explore-button">Explore careers</button>
+          <button className="detailexplore-button">Explore careers</button>
         </div>
         <img src={superstar} alt="Career" className="career-image" />
       </div>

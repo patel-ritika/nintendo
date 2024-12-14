@@ -28,7 +28,7 @@
     cursor: pointer;
   }
   
-  .explore-button {
+  .detailexplore-button {
     padding: 10px 20px;
     background-color: #e60012;
     color: #fff;
@@ -40,7 +40,7 @@
     margin-top: 10px;
   }
   
-.explore-button:hover{
+.detailexplore-button:hover{
   background-color: darkred;
 }
 
@@ -131,7 +131,7 @@
       font-size: 14px;
   }
 
-  .explore-button {
+  .detailexplore-button {
       font-size: 14px;
       padding: 8px 16px;
   }
@@ -146,7 +146,7 @@
       padding: 10px;
   }
 
-  .explore-button {
+  .detailexplore-button {
       font-size: 12px;
       padding: 6px 12px;
   }

@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Shop from './components/Shop';
 import Order from './components/Order';
+import WishList from './components/WishList';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                   <Route path="/about" element={<About />} />
                   <Route path="/shop" element={<Shop />} />
                   <Route path="/order" element={<Order />} />
+                  <Route path="/wishlist" element={<WishList />} />
                </Routes>
  
             <Footer/>

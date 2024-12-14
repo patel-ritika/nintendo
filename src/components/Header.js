@@ -10,6 +10,15 @@ const Header = () => {
     const toggleMenu = () => {
       setIsMenuOpen(!isMenuOpen);
     };
+
+   
+    
+    const handleLinkClick = () => {
+      console.log("Link clicked, closing menu.");
+      setIsMenuOpen(false);
+  };
+  
+
   return (
     <header className="header">
       <div className="logo">
@@ -20,7 +29,9 @@ const Header = () => {
 
        {/* Mobile Icons */}
        <div className={`mobile-icons ${isMenuOpen ? "show" : ""}`}>
+        <Link to="/wishlist" onClick={handleLinkClick} className="mobile-wishlist-link">
         <FaHeart />
+        </Link>
         <FaShoppingCart />
         <FaUser />
       </div>
@@ -47,8 +58,11 @@ const Header = () => {
 
       <div className="right-icons">
         <div className="icon">
+       
           <FaHeart />
+          <Link to="/wishlist" onClick={handleLinkClick} className="wishlist-link">
           <span>Wish List</span>
+          </Link>
         </div>
         <div className="icon">
           <FaShoppingCart />

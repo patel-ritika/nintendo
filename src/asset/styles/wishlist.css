@@ -1,0 +1,118 @@
+/* Main container styling */
+.wishlist-container {
+    margin: 0 10%; /* Leave some space from the left and right sides */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #434242;
+  }
+  
+  /* Styling for the h1 tag */
+  .wishlist-container h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #434242;
+    text-align: left;
+  }
+  
+  /* Styling for the paragraph */
+  .wishlist-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #434242;
+    text-align: left;
+  }
+  
+  /* Styling for the box with background color */
+  .wishlist-box {
+    background-color: #efefef;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  
+  /* Styling for the h2 tag inside the box */
+  .wishlist-box h2 {
+    font-size: 25px;
+    color: #434242;
+    margin: 0;
+  }
+  
+  /* Styling for the button */
+  .login-button {
+    background-color: #e60012;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .login-button:hover {
+    background-color: darkred;
+  }
+  
+  /* Responsive styling */
+@media (max-width: 768px) {
+    .wishlist-container {
+      margin: 0 5%; /* Reduce margin on smaller screens */
+      padding: 15px;
+    }
+  
+    .wishlist-container h1 {
+      font-size: 24px; /* Smaller heading on mobile */
+    }
+  
+    .wishlist-container p {
+      font-size: 14px;
+    }
+  
+    .wishlist-box {
+      flex-direction: column; /* Stack items in a column */
+      text-align: left; /* Align text to the left */
+      gap: 15px; /* Add more spacing between elements */
+    }
+  
+    .wishlist-box h2 {
+      font-size: 18px; /* Smaller font for the h2 */
+    }
+  
+    .login-button {
+      align-self: flex-start; /* Align button to the start in column layout */
+      width: 100%; /* Make the button full width */
+      text-align: center; /* Center align text */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .wishlist-container {
+      margin: 0 2%; /* Further reduce margin for very small screens */
+      padding: 10px;
+    }
+  
+    .wishlist-container h1 {
+      font-size: 20px;
+    }
+  
+    .wishlist-container p {
+      font-size: 13px;
+      line-height: 1.4;
+    }
+  
+    .wishlist-box h2 {
+      font-size: 16px;
+    }
+  
+    .login-button {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }

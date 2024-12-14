@@ -7,6 +7,7 @@ import About from './components/About';
 import Shop from './components/Shop';
 import Order from './components/Order';
 import WishList from './components/WishList';
+import Cart from './components/Cart';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                   <Route path="/shop" element={<Shop />} />
                   <Route path="/order" element={<Order />} />
                   <Route path="/wishlist" element={<WishList />} />
+                  <Route path="/cart" element={<Cart />} />
                </Routes>
  
             <Footer/>

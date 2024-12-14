@@ -68,6 +68,11 @@
   text-decoration: none;
 }
 
+.Cart{
+  color: #434242;
+  text-decoration: none;
+}
+
 .mobile-icons{
     display: none;
     gap: 10px;
@@ -124,11 +129,12 @@
       order: 2;
     }
 
-    .mobile-wishlist-link{
+    .mobile-wishlist-link,
+    .mobile-cart-link{
       color: #434242;
       text-decoration: none;
     }
-    
+
 
     .mobile-icons{
       z-index: 15;

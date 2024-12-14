@@ -1,0 +1,73 @@
+.cart-container {
+    padding: 20px; /* Adds spacing inside the container */
+    margin-left: 20px; /* Leaves space on the left */
+    text-align: center; /* Centers content horizontally */
+  }
+  
+  .cart-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; 
+    padding-left: 7rem;
+    color: #434242;
+  }
+  
+  .cart-icon-container {
+    margin: 20px 0; /* Adds spacing above and below the icon */
+  }
+  
+  .cart-icon {
+    font-size: 3rem;
+    color: #434242; /* Sets the icon color */
+  }
+  
+  .cart-subtitle {
+    font-size: 1.5rem;
+    margin: 20px 0; 
+    color: #434242;
+  }
+  
+  .underline {
+    cursor: pointer;
+    text-decoration: underline; /* Underlines "something fun" */
+    color: #e60012; /* Optional: Makes the underline colorful */
+  }
+  
+.underline:hover{
+    color: darkred;
+}
+
+  .cart-text {
+    font-size: 1rem;
+    color: #434242; /* Text color */
+    margin-top: 10px; /* Adds spacing above the paragraph */
+  }
+  
+  /* Responsive Design for Mobile */
+@media (max-width: 768px) {
+    .cart-container {
+      padding: 10px;
+      text-align: center;
+      margin: auto;
+    }
+  
+    .cart-title {
+      font-size: 1.5rem;
+      text-align: center; 
+      padding-left: 0;
+    }
+  
+    .cart-icon {
+      font-size: 2.5rem; 
+    }
+  
+    .cart-subtitle {
+        text-align: left;
+      font-size: 1.2rem; 
+    }
+  
+    .cart-text {
+      font-size: 0.9rem; 
+    }
+  }

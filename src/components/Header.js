@@ -32,7 +32,10 @@ const Header = () => {
         <Link to="/wishlist" onClick={handleLinkClick} className="mobile-wishlist-link">
         <FaHeart />
         </Link>
+
+        <Link to="/cart" onClick={handleLinkClick} className="mobile-cart-link">
         <FaShoppingCart />
+        </Link>
         <FaUser />
       </div>
 
@@ -66,7 +69,9 @@ const Header = () => {
         </div>
         <div className="icon">
           <FaShoppingCart />
+          <Link to="/cart" onClick={handleLinkClick} className="Cart">
           <span>Cart</span>
+          </Link>
         </div>
         <div className="icon">
           <FaUser />
